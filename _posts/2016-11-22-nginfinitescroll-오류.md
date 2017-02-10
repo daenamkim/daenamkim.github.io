@@ -1,0 +1,44 @@
+---
+layout: post
+title: "ngInfiniteScroll 오류"
+date: 2016-11-22 11:26:01
+image: '/assets/img/'
+description:
+main-class:
+color:
+tags:
+categories:
+twitter_text:
+introduction:
+---
+
+angular infinite scroll 로 구글링.
+https://sroze.github.io/ngInfiniteScroll/
+
+위 사이트가 최상위로 랭크 되어 들어가서 확인 후 bower 로 검색.
+
+Daenam-Kim-no-MacBook-Pro:lm_frontend daenamkim$ bower search nginfinite
+Search results:
+
+OK    ngInfiniteScroll https://github.com/ng-infinite-scroll/ng-infinite-scroll-bower.git
+    nginfinitescroll https://github.com/BinaryMuse/ngInfiniteScroll.git
+    ngInfiniteScroll-PureJS https://github.com/matthewhardnack/ngInfiniteScroll-PureJS.git
+    ng-infinite-scroller https://github.com/Srirangan/ngInfiniteScroll.git
+    ngInfiniteScroll-elements https://github.com/AMPTSalesSolutions/ngInfiniteScroll.git
+NG    ng-infinite-scroller-origin https://github.com/sroze/ngInfiniteScroll.git
+    tpInfiniteScroll https://github.com/talentpair/ngInfiniteScroll.git
+    plntr-infinite-scroll https://github.com/PlanitarInc/ngInfiniteScroll.git
+    infinit-scroll https://github.com/Daniel900318/ngInfiniteScroll.git
+
+위 명령으로 검색을 해서 위 저자명이 들어간 빨간색 부분을 설치했다.
+Lazyload 모듈 로드, 상위단에서 모듈 로드, 심지어는 index.html 에 직접 넣어도 계속해서 Uncaught SyntaxError: Unexpected token import 만 발생함.
+해당 깃허브 이슈에 있는 내용들을 보아하니 전혀 쓸모 없었다.
+
+그리고 메뉴얼 내용을 잘 읽지 않았을 때 어떤 사태가 발생하는지 다시 한 번 깨달았다.
+
+깃허브 제일 마지막 페이지에 bower 로 설치하는 패키지 명이 다른 것이다. 
+실제로 완전히 다른 계정으로 생성된 컨포넌트 이다. 코드도 다르다. ;;
+
+위에서 녹색으로 표시한 녀석이다. >.<;
+
+지금은 잘 돌아간다. 메뉴얼좀 잘 읽자.

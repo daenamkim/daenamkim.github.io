@@ -7,7 +7,7 @@
             searchResults   : '.search-results',
             searchResultsTitle   : '<h4>Search results:</h4>',
             limit           : '10',
-            noResults       : '<p>Oh snap!<br/><small>We found nothing :(</small></p>'
+            noResults       : '<p>이런!<br/><small>검색된 결과가 없네요. >.< </small></p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
