@@ -3,15 +3,15 @@ layout: post
 title: "cassandra.ReadFailure: code=1300 오류 해결하기"
 date: 2017-01-17 8:06:23
 image: '/assets/img/'
-description: Cassandra에 갑자가 접속이 안될 경우 확인하기.
-main-class: "Cassandra"
+description: 'Cassandra의 특정 테이블에 갑자가 접근이 안될 경우 확인하기.'
+main-class: 'db'
 color:
 tags:
 - db
 - cassandra
 categories:
-twitter_text: "cassandra.ReadFailure: code=1300 오류 해결"
-introduction: "Cassandra에 갑자가 접속이 안될 경우 확인하기."
+twitter_text:
+introduction: 'Cassandra의 특정 테이블에 갑자가 접근이 안될 경우 확인하기.'
 ---
 
 개발 중인 프로파일 서버에서 갑자기 카산드라 접속이 안되기 시작한다.

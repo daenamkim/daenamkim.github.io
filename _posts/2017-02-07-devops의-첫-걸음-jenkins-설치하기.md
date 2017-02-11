@@ -3,15 +3,15 @@ layout: post
 title: "DevOps의 첫 걸음 Jenkins 설치하기"
 date: 2017-02-07 06:47:54
 image: '/assets/img/'
-description: ""
-main-class: "Jenkins"
+description: 'Jenkins 설치가 얼마나 간단한지 알아보자.'
+main-class: 'devops'
 color:
 tags:
-- Jenkins
-- DevOps
+- devops
+- jenkins
 categories:
-twitter_text: "Jenkins 설치하기"
-introduction: "Jenkins 설치가 얼마나 간단한지 알아보자."
+twitter_text:
+introduction: 'Jenkins 설치가 얼마나 간단한지 알아보자.'
 ---
 
 ## 설치 환경
