@@ -38,6 +38,8 @@ links:
     url: /tags
   - title: About Me
     url: /about
+  - title: Blog Roadmap
+    url: https://trello.com/b/mFEitEQS/oootoko-blog
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
