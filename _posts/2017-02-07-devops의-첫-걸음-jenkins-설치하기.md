@@ -10,7 +10,7 @@ tags:
 - devops
 - jenkins
 categories:
-twitter_text:
+twitter_text: 'DevOps의 첫 걸음 Jenkins 설치하기'
 introduction: 'Jenkins 설치가 얼마나 간단한지 알아보자.'
 ---
 
@@ -58,7 +58,8 @@ Administrator password를 넣고 **Continue**를 클릭한다.
 어디보자... 역시 가장 많이 사용하는 플러그인들이 설치 된다. 모르는 것들도 몇 개 있네.
 ![Install Plugins](/assets/img/devops의-첫-걸음-jenkins-설치하기/install-plugins.png)
 
-사용자를 추가하는 화면인데 사용자 정보를 입력 후 **Save and Finish**를 클릭한다. 여기서 입력 하기가 극도로 귀찮은 사람은 Continue as admin을 클릭해서 넘어가도 된다. 나중에 로그인 아웃 후 다시 로그인 시에는 Administrator password를 사용하면 된다.
+사용자를 추가하는 화면인데 사용자 정보를 입력 후 **Save and Finish**를 클릭한다. 여기서 입력 하기가 극도로 귀찮은 사람은 Continue as admin을 클릭해서 넘어가도 된다.
+나중에 로그인 아웃 후 다시 로그인 시에는 Unlock 시 사용한 Administrator password를 사용하면 된다.
 ![Create User](/assets/img/devops의-첫-걸음-jenkins-설치하기/create-user.png)
 
 자! 끝났다. **Start using Jekings**를 클릭하면 대시보드가 표시된다.
@@ -68,4 +69,4 @@ Administrator password를 넣고 **Continue**를 클릭한다.
 다음에는 GitHub와 연동하여 간단한 Pull Request 처리를 해볼 생각이다.
 
 ## 참고
-- [Jenkins Wiki](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
+- [Installing Jenkins on Ubuntu](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
