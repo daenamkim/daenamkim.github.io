@@ -66,7 +66,8 @@ cqlsh:profile> DESC task_log;
 cqlsh:profile> ALTER TABLE task_log WITH gc_grace_seconds = 0;
 ```
 
-다음에는 Compaction Strategy를 공부하고 업데이트를 할 예저이다.
+## 다음 할 일
+- Compaction Strategy 공부 및 정리.
 
 ## 참고
 - [Compation](http://docs.datastax.com/en/archived/cassandra/2.0/cassandra/dml/dml_write_path_c.html#concept_ds_wt3_32w_zj__dml-compaction)

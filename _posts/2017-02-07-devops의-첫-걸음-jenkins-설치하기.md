@@ -66,7 +66,8 @@ Administrator password를 넣고 **Continue**를 클릭한다.
 ![Jenkins Is Ready](http://cdn.oootoko.net/blog/assets/img/devops의-첫-걸음-jenkins-설치하기/jenkins-is-ready.png)
 ![Jenkins Dashboard](http://cdn.oootoko.net/blog/assets/img/devops의-첫-걸음-jenkins-설치하기/jenkins-dashboard.png)
 
-다음에는 GitHub와 연동하여 간단한 Pull Request 처리를 해볼 생각이다.
+## 다음 할 일
+- GitHub와 연동하여 Test, Pull Request, Merge, Deploy 테스트.
 
 ## 참고
 - [Installing Jenkins on Ubuntu](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu)
