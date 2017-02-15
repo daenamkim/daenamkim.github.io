@@ -40,6 +40,7 @@ tombstone_failure_threshold: 100000
 삭제 처리 중인 레코드는 각 테이블의 `gc_grace_seconds`에 설정된 시간(TTL; Time To Live) 만큼 기다린 후에 Compaction이 진행될 때 완료된다.
 
 문제가 발생한 테이블의 `gc_grace_seconds`을 확인하면 기본적으로 아래와 같다.
+
 ```
 cqlsh:profile> DESC task_log;
 	...
