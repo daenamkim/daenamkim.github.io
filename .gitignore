@@ -3,3 +3,5 @@ _site
 node_modules
 _drafts
 .python-version
+dump.rdb
+package-lock.json
