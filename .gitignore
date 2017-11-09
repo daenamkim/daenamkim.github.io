@@ -1,7 +1,7 @@
 .DS_Store
-_site
-node_modules
-_drafts
 .python-version
-dump.rdb
+.swp
+_site
+_drafts
+node_modules
 package-lock.json

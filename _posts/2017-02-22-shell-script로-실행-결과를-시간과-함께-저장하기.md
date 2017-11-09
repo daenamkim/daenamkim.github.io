@@ -8,7 +8,7 @@ main-class: 'misc'
 color:
 tags:
 - misc
-- shell script
+- shellscript
 categories:
 twitter_text: 'Shell Script로 실행 결과를 시간과 함께 저장하기'
 introduction: 'Shell Script 로 간단한 반복 테스트 로직 사용 시 시간과 함께 실행 로그를 기록 해보자.'
