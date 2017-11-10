@@ -2,12 +2,12 @@
     $.fn.simpleJekyllSearch = function(options) {
         var settings = $.extend({
             jsonFile        : '/search.json',
-            jsonFormat      : 'title,tags,url,date',
+            jsonFormat      : 'title,tags,categories,url,date',
             template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
             searchResultsTitle   : '<h4>Search results:</h4>',
             limit           : '10',
-            noResults       : '<p>이런!<br/><small>검색된 결과가 없네요. >.< </small></p>'
+            noResults       : '<p>Oops!<br/><small>No result. :) </small></p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
@@ -21,11 +21,11 @@
                 type: "GET",
                 url: settings.jsonFile,
                 dataType: 'json',
-                success: function(data, textStatus, jqXHR) {
+                success(data, textStatus, jqXHR) {
                     jsonData = data;
                     registerEvent();
                 },
-                error: function(x,y,z) {
+                error(x,y,z) {
                     console.log("***ERROR in simpleJekyllSearch.js***");
                     console.log(x);
                     console.log(y);
@@ -87,3 +87,4 @@
         }
     }
 }(Zepto));
+
