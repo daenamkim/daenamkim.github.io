@@ -23,7 +23,7 @@ introduction: '데이터 사이언스 공부를 시작하며...'
 
 ## 데이터 사이언스의 다양한 스킬을 빠르게 습득할 수 있는 방법
 
-현재 [우리 회사](http://www.ascentnet.co.jp/ko/)에 대학에서 컴퓨터 사이언스와 수학을 동시에 전공한 직원의 말과 인터넷에서 이곳 저곳에서 수학을 쉽고 빠르게 익힐 수 있는 방법을 열심히 검색한 결과 **그런 것 따위는 없었다.** [수포자를 위한 머신러닝](http://www.moreagile.net/2015/05/how-to-start-machine-learning-study.html) 같은 포스트을 읽어 보아도 결론은 수학은 공부 뿐이다!
+현재 [우리 회사](http://www.ascentnet.co.jp/ko/)에 대학에서 컴퓨터 사이언스와 수학을 동시에 전공한 직원의 말과 인터넷에서 이곳 저곳 수학을 쉽고 빠르게 익힐 수 있는 방법을 열심히 검색한 결과 **그런 것 따위는 없었다.** [수포자를 위한 머신러닝](http://www.moreagile.net/2015/05/how-to-start-machine-learning-study.html) 같은 포스트을 읽어 보아도 결론은 수학은 공부 뿐이다!
 
 ## 학습전략
 
