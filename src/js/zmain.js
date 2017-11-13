@@ -74,4 +74,3 @@ if (screen.width > 1024) {
 }
 
 })( Zepto, window );
-
