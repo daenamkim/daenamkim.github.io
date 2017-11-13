@@ -39,7 +39,7 @@ introduction: '데이터 사이언스 공부를 시작하며...'
 #### 2. [Data Science for Business](http://data-science-for-biz.com/DSB/Home.html) 학습.
 - 데이터 사이언스 분야 입문서로 유명하다. ([한글, 일어 번역](http://data-science-for-biz.com/DSB/Translations.html)도 있음.)
 - 책 값은 아끼지 않으려고 했으나 [대표님](https://www.linkedin.com/in/jkimtokyo/)께서 사주셨다. (Thank you boss.)
-- 첫 도전으로 챕터 4를 공부해서 이번 달 말에 사내 개발자 스터티 모임에서 발표할 것이닷!!
+- 첫 도전으로 챕터 4를 공부해서 이번 달 말에 사내 개발자 스터디 모임에서 발표할 것이닷!!
 
 #### 3. [DataCamp](https://www.datacamp.com/) 프로그래밍 + 툴 사용법 학습.
 - [Data Analyst with Python](https://www.datacamp.com/tracks/data-analyst-with-python) 현재 진행 중이다.
