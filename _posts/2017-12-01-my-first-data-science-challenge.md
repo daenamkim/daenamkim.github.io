@@ -15,10 +15,10 @@ introduction: '실전 결정 트리 맨땅에 헤딩하기.'
 ---
 
 ## 교과서만 보고 맨땅에 헤딩 해보기
-[Begining of Data Science 포스트](/begining-of-data-science/)에서 선포(?)한 것 처럼 Chapter 4 Fitting a Model to Data의 [선형 회귀 분석](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80) 또는 [SVM](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) 등을 해보려 하였으나 여러가지 이유로 Chapter 3 Introduction to Predictive Modeling의 [결정 트리](https://ko.wikipedia.org/wiki/%EA%B2%B0%EC%A0%95_%ED%8A%B8%EB%A6%AC_%ED%95%99%EC%8A%B5%EB%B2%95) 직접 만들기를 맨땅에 헤딩해 보았다. >.< 트리만 하더라도 다양한 알고리즘과 논문들이 존재하지만 개념이 전혀 없는 나로서는 우선 교과서만을 중심으로 직접 만들어보았다.
+[Begining of Data Science 포스트](/begining-of-data-science/)에서 선포(?)한 것 처럼 Chapter 4. Fitting a Model to Data의 [선형 회귀 분석](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95_%ED%9A%8C%EA%B7%80) 또는 [SVM](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) 등을 해보려 하였으나 여러가지 이유로 Chapter 3. Introduction to Predictive Modeling의 [결정 트리](https://ko.wikipedia.org/wiki/%EA%B2%B0%EC%A0%95_%ED%8A%B8%EB%A6%AC_%ED%95%99%EC%8A%B5%EB%B2%95) 직접 만들기를 맨땅에 헤딩해 보았다. >.< 트리만 하더라도 다양한 알고리즘과 논문들이 존재하지만 개념이 전혀 없는 나로서는 우선 교과서만을 중심으로 직접 만들어보았다.
 
 ## 엔트로피
-[엔트로피](https://ko.wikipedia.org/wiki/%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC)(Entropy)는 어떤 집합의 무질서 정도를 측정하는 수치이다. 범위는 0부터 1로 나타내며 엔트로피가 **0이면 완전 순수**하며 **1이면 완전 불순**하다는 것을 의미한다. 다음은 책에서 설명하는 엔트로피의 공식과 그래프이다.
+[엔트로피](https://ko.wikipedia.org/wiki/%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC)(Entropy)는 어떤 집합의 무질서 정도를 측정하는 수치이다. 범위는 0부터 1까지로 나타내며 엔트로피가 **0이면 완전 순수**하며 **1이면 완전 불순**하다는 것을 의미한다. 다음은 책에서 설명하는 엔트로피의 공식과 그래프이다.
 
 ![엔트로피 수식](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropy-equation.png)
 ><cite>from Data Science for Business, Equation 3-1. Entropy</cite>
@@ -235,3 +235,4 @@ print('Accuracy is ' + str(matched / total))
 ## 참고
 - [자작 결정 트리](https://github.com/daenamkim/data-science-challenge/blob/master/Data%20Science%20for%20Business%20-%20Chapter%203.ipynb)
 - [데이터 사이언스 교과서](http://data-science-for-biz.com/DSB/Home.html)
+
