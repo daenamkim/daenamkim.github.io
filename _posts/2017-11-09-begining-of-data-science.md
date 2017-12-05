@@ -34,7 +34,7 @@ introduction: '데이터 사이언스 공부를 시작하며...'
 > <cite>Our mission is to provide a free, world-class education to anyone, anywhere.</cite>
 - 무료다. (원하면 기부해도 됨.)
 - 현재 나의 실적. 갈길이 멀다. 상당히 절망적이나 현실이니 받아들이자. ㅠ.ㅠ
-![현재 나의 실적?](http://cdn.oootoko.net/blog/assets/img/post-1510224909/000.png)
+![현재 나의 실적?](http://cdn.oootoko.net/blog/assets/img/begining-of-data-science/my-result.png)
 
 #### 2. [Data Science for Business](http://data-science-for-biz.com/DSB/Home.html) 학습.
 - 데이터 사이언스 분야 입문서로 유명하다. ([한글, 일어 번역](http://data-science-for-biz.com/DSB/Translations.html)도 있음.)
