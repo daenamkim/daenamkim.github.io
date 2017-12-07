@@ -14,7 +14,7 @@ twitter_text: '개발 황무지를 DevOps로 개간하기.'
 introduction: '개발 황무지를 DevOps로 개간하기.'
 ---
 
-DepOps 도입기를 적어볼까 한다.
+2017년도 초에 진행한 DevOps 도입기를 적어볼까 한다.
 
 ## 그 옛날 (BEFORE)
 2014년 12월 중순 [Ascent Networks](http://www.ascentnet.co.jp/ko)에 입사 하였다. 그 당시 사용되고 있는 개발 환경은 메일과 [IDE](https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EA%B0%9C%EB%B0%9C_%ED%99%98%EA%B2%BD)를 제외하면 다음과 같았다.
