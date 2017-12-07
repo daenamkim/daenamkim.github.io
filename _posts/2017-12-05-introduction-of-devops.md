@@ -47,7 +47,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 - 실제 전화번호로 전화가 되는 것 외에는 좋은 점이 없어 보임. (카톡을 쓰는 것이 낮다고 생각이 들 정도였음.)
 
 ## 결심 그리고 현재 (AFTER)
-![wasteland](https://cdn.pixabay.com/photo/2014/09/25/21/08/litter-460984_960_720.jpg)
+![wasteland](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/wasteland.jpg)
 
 더이상 미루지 말고 대대적인 **황무지 개간**을 시작할 때가 되었다고 판단되었다. 2017년 초 모든 것을 갈아 엎자는 취지 하에 **DevOps** 방법론을 우리 회사에 맞게 도입하기로 하였다.
 
@@ -70,7 +70,7 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 우선 SVN에 떡처럼 붙어 있던 모든 파트별 저장소를 분리해서 GitHub으로 전부 Import 후 Slack 및 Trello와도 연결하였다.
 
 개발 시 GitHub의 PR(Pull Request)를 이용한 [GitHub Flow](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)를 도입하기로 했다. 이유는 다음과 같다.
-- **master**와 **working branch** 구성으로만 진행함. (**master**는 항상 프로덕션 환경에 배포 가능한 상태를 유지함.)
+- **master**와 **feature branch** 구성으로만 진행함. (**master**는 항상 프로덕션 환경에 배포 가능한 상태를 유지함.)
 - 구조가 간단하고 브랜치 명으로 작업 내용을 알 수 있으므로 직관적임.
 - 작업 중인 코드는 수시로 서버에 push 하면서 동시에 **[WIP]**를 제목에 추가해서 여러번 코드 리뷰의 요청이 가능함.
 - 결과적으로 소인 그룹에서 작업 시 작업 속도가 향상됨.
@@ -112,7 +112,7 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 현재 [Standard](https://ascentnet.slack.com/plans) 플랜으로 사용하고 있으며 이 앱은 너무 유명해서 굳이 설명이 필요 없을 것 같지만 선정한 이유를 간단히 정리하면 다음과 같다.
 - 매우 다양한 서비스들과 연동이 가능함. (GitHub, Trello, Jenkins 등.)
 - 전화번호 전화 빼고 스카이프에서 가능한 모든 기능을 사용할 수 있음. (영상 통화, 화면 공유 등.)
-- 위에서 소개한 모든 서비스들과 연동이 가능해서 Slack 하나 만으로 모든 작업 흐름을 알 수 이음.
+- 위에서 소개한 모든 서비스들과 연동이 가능해서 Slack 하나 만으로 모든 작업 흐름을 알 수 있음.
 - 각종 봇 서비스들과 연동해서 다양한 편의성을 도모할 수 있음.
 
 ![Slack Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-usage.png)
