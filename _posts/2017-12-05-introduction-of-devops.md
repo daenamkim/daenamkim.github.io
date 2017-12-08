@@ -62,7 +62,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 큰 회사들처럼 사내에 구축하지는 않고 [SasS](https://ko.wikipedia.org/wiki/SaaS) 형태의 [Team](https://github.com/pricing/team) 플랜을 사용 중이다. GitHub 사용의 장점은 다음과 같다.
 - 매우 다양한 외부 서비스들과 연동 가능. (Slack, Jenkins, Trello 등.)
 - 현재 대부분의 오픈 소스 프로젝트가 가동되고 있는 동일 인터페이스를 그대로 사용하므로 GitHub에서 조금이라도 개발 경험이 있는 사람의 경우 **학습 비용이 0임**.
-- 인터페이스가 다른 서비스들([Bitbucket](https://www.atlassian.com/software/bitbucket), [GitLap](https://about.gitlab.com/) 등.)에 비해서 심플하면서도 직관적임. (지금은 다른 서비스들도 사용하기 많이 편리해졌을 것으로 생각된다.)
+- 인터페이스가 다른 서비스들([Bitbucket](https://www.atlassian.com/software/bitbucket), [GitLab](https://about.gitlab.com/) 등.)에 비해서 심플하면서도 직관적임. (지금은 다른 서비스들도 사용하기 많이 편리해졌을 것으로 생각된다.)
 - 코드 리뷰. (별도 리뷰 서비스를 구축할 필요가 없음.)
 
 GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간혹 보았으나 개인적으로는 전혀 불편함 없이 사용 중이다. 게다가 관리 비용을 시간 단위로 환산 한다면 사용하는 것이 더더욱 합리적이라고 생각된다.
@@ -132,9 +132,9 @@ Jenkins까지 가지 않고도 현 상태 확인 및 배포 명령을 보내고�
 - Lint, Unit Test. (추가 중.)
 - PR. (필요한 경우 PR과 동시에 브랜치 소스로 개발/스테이징에 배포 및 테스트.)
 - 코드 리뷰 및 승인.
+- Functional Test. (추가 중.)
 - 마스터 브랜치에 머지.
 - 개발 서버에 자동 배포.
-- Functional Test. (추가 중.)
 - 스테이징/프로덕션 환경에 배포.
 
 ## 마무리
