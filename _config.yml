@@ -1,12 +1,12 @@
 # Site settings
 title: OOOTOKO
-description: Be a better person!
+description: Life is originally hard.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://oootoko.net" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Daenam Kim
-user_description: Be a better person!
+user_description: Life is originally hard.
 twitter_username: DaenamKim
 github_username: daenamkim
 
