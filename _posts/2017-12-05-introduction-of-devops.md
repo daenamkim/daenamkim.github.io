@@ -54,6 +54,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 - 소스 관리: [GitHub](https://github.com/)
 - 프로젝트 관리: [Trello](https://trello.com/)
 - 빌드 및 배포: [Jenkins](https://jenkins.io/)
+- 서버 테스트: [Serverspec](http://serverspec.org)
 - 모니터링: Cacti, Nagios, [Elasticsearch](https://www.elastic.co/jp/products/elasticsearch)
 - 그룹 챗: [Slack](https://slack.com/)
 
@@ -106,6 +107,45 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 
 ![Jenkins Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/jenkins-usage.png)
 ><cite>ListeningMind 배포 과정.</cite>
+
+### Serverspec
+![Serverspec Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/serverspec-logo.jpg)
+타겟 서버에서 설치된 패키지, 프로세스, 포트, 파일, 디렉토리 및 크론탭 등 매우 다양하고 정교한 서버 테스트를 지원하는 도구이다. 이런 도구의 도움 없이 서버를 운영해본 사람이라면 이런 확인 작업이 얼마나 번거롭고 실수가 잦았었는지를 기억할 것이다. (아니면 나만 그랬을 수도 있다. ;;) 설정 가능한 상세한 내용은 [여기](http://serverspec.org/resource_types.html)를 참고하자.
+
+아래는 Serverspec 실행 시 실제로 오류가 발생했을 때의 상황이다. 프로세스 수가 9개 이어야 하는데 5개로 확인 되면서 오류를 발생한 것이다.
+{% highlight shell %}
+Process "celery worker"
+  count
+    should eq 5
+
+Failures:
+
+  1) Process "celery worker" count should eq 9
+     On host `deploy.1.production.worker.listeningmind.com'
+     Failure/Error: its(:count) { should eq 9 }
+       
+       expected: 9
+            got: 5
+       
+       (compared using ==)
+       /bin/sh -c ps\ aux\ \|\ grep\ -w\ --\ celery\\\ worker\ \|\ grep\ -v\ grep\ \|\ wc\ -l
+       5
+
+     # ./spec/lm-worker-base/base_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+Finished in 2.75 seconds (files took 0.26748 seconds to load)
+11 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/lm-worker-base/base_spec.rb:8 # Process "celery worker" count should eq 9
+
+/var/lib/jenkins/.rbenv/versions/2.4.1/bin/ruby -I/var/lib/jenkins/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/rspec-support-3.6.0/lib:/var/lib/jenkins/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/rspec-core-3.6.0/lib /var/lib/jenkins/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/rspec-core-3.6.0/exe/rspec --pattern spec/\{lm-worker-base,lm-worker-production-1\}/\*_spec.rb failed
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
+{% endhighlight %}
+
+ Jenkins 빌드 파이프라인에 적용시켜 두면 상당히 유용하게 사용될 수 있게 된다.
 
 ### Slack
 ![Slack Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-logo.png)
