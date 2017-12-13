@@ -112,7 +112,7 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 ![Serverspec Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/serverspec-logo.jpg)
 타겟 서버에서 설치된 패키지, 프로세스, 포트, 파일, 디렉토리 및 크론탭 등 매우 다양하고 정교한 서버 테스트를 지원하는 도구이다. 이런 도구의 도움 없이 서버를 운영해본 사람이라면 이런 확인 작업이 얼마나 번거롭고 실수가 잦았었는지를 기억할 것이다. (아니면 나만 그랬을 수도 있다. ;;) 설정 가능한 상세한 내용은 [여기](http://serverspec.org/resource_types.html)를 참고하자.
 
-아래는 Serverspec 실행 시 실제로 오류가 발생했을 때의 상황이다. 프로세스 수가 9개 이어야 하는데 5개로 확인 되면서 오류를 발생한 것이다.
+아래는 Serverspec 실행 시 실제로 오류가 발생했을 때의 상황이다. 프로세스 수가 9개 이어야 하는데 5개로 확인 되면서 오류가 발생한 것이다.
 {% highlight shell %}
 Process "celery worker"
   count
@@ -144,8 +144,9 @@ rspec ./spec/lm-worker-base/base_spec.rb:8 # Process "celery worker" count shoul
 Build step 'Execute shell' marked build as failure
 Finished: FAILURE
 {% endhighlight %}
+><cite>Serverpec 실행 결과.</cite>
 
- Jenkins 빌드 파이프라인에 적용시켜 두면 상당히 유용하게 사용될 수 있게 된다.
+Jenkins 프로젝트로 만들어 놓고 빌드 파이프라인에 적용시켜 두면 상당히 편리하다.
 
 ### Slack
 ![Slack Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-logo.png)
