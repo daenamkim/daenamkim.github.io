@@ -48,6 +48,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 
 ## 결심 그리고 현재 (AFTER)
 ![wasteland](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/wasteland.jpg)
+><cite>[사진 출처](https://cdn.pixabay.com/photo/2014/09/25/21/08/litter-460984_960_720.jpg)</cite>
 
 더이상 미루지 말고 대대적인 **황무지 개간**을 시작할 때가 되었다고 판단되었다. 2017년 초 모든 것을 갈아 엎자는 취지 하에 **DevOps** 방법론을 우리 회사에 맞게 도입하기로 하였다.
 
