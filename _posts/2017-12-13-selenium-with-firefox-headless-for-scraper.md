@@ -4,7 +4,7 @@ comments: true
 title: "Selenium with Firefox Headless for Scraper"
 date: 2017-12-13 01:34:14
 image: '/assets/img/'
-description:
+description: 'Selenium과 Firefox Headless로 Web Scraper 시작하기.'
 main-class: 'data'
 color:
 tags:

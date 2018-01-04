@@ -3,7 +3,7 @@ layout: post
 title: "My First Data Science Challenge"
 date: 2017-12-01 04:09:30
 image: '/assets/img/'
-description:
+description: '실전 결정 트리 맨땅에 헤딩하기.'
 main-class: 'data'
 color:
 tags:

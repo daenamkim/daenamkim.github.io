@@ -4,7 +4,7 @@ comments: true
 title: "Introduction of DevOps"
 date: 2017-12-05 06:36:33
 image: '/assets/img/'
-description:
+description: '개발 황무지를 DevOps로 개간하기.'
 main-class: 'devops'
 color:
 tags:
