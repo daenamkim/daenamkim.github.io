@@ -17,7 +17,7 @@ introduction: 'Selenium과 Firefox Headless로 Web Scraper 시작하기.'
 ---
 
 ## 도입 배경
-Web Scraping을 [urllib](https://docs.python.org/3/library/urllib.html)이나 [Requests](http://docs.python-requests.org/en/master/)를 사용할 경우 상대적으로 빠른 이점이 있으나 Lazy Load로 동작하는 동적 페이지의 데이터를 정상적으로 취득하지 못하는 경우가 발생한다. 이 때, [Selenium](http://www.seleniumhq.org/)을 사용하면 이런 문제를 해결할 수 있다. (반면에 메모리 사용량 증가 및 속도가 느려지는 단점이 있다.)
+Web Scraping을 [urllib](https://docs.python.org/3/library/urllib.html)이나 [Requests](http://docs.python-requests.org/en/master/)를 사용할 경우 상대적으로 빠른 이점이 있으나 동적으로 로딩되는 템플릿 데이터를 정상적으로 취득하지 못하는 경우가 발생한다. 이 때, 가상 브라우저를 사용하면 문제를 해결 할 수 있으며 (반면에 메모리 사용량 증가 및 속도가 느려지는 단점이 있다.) 대표적인 가상 브라우저 도구인 [Selenium](http://www.seleniumhq.org/)을 적용해 보도록 하자.
 
 ![Selenium Logo](http://cdn.oootoko.net/blog/assets/img/selenium-with-firefox-headless-for-scraper/selenium-logo.png)
 
@@ -26,14 +26,14 @@ Selenium을 사용해서 [Headless Browser](https://en.wikipedia.org/wiki/Headle
 - [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - [PhantomJS](http://phantomjs.org/download.html)
 
-현재 몸담고 있는 회사에서 운영 중인 솔루션에서 이미 Chrome Driver를 사용하고 있었으나 원인 불명으로 계속해서 오류가 발생했다. 말 그대로 원인 불명이다. ;;
+현재 몸담고 있는 회사에서 운영 중인 솔루션에서 이미 Chrome Driver를 사용하고 있었으나 원인 불명으로 계속해서 오류가 발생했다. 말 그대로 원인 불명이다. >.<
 
 {% highlight shell %}
 Message: unknown error: Chrome failed to start: crashed
   (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 3.13.0-24-generic x86_64)
 {% endhighlight %}
 
-여기서 일일이 열거하지는 않겠지만 서버를 새로 구축 하는 것 빼고는 다 해본 것 같다. Chrome Driver는 드라이버만 설치하면 되기 때문에 간단해서 좋았는데 이렇게 되어 버렸으니 Firefox Driver로 교체 해보기로 하였다. 결론부터 말하면 교체 후에 **문제가 해결** 되었다.
+여기서 일일이 열거하지는 않겠지만 서버를 새로 구축 하는 것 빼고는 다 해본 것 같다. Chrome Driver는 드라이버만 설치하면 되기 때문에 간단해서 좋았는데 이렇게 되어 버렸으니 Firefox + Gecko Driver로 교체해 보기로 하였다. 결론부터 말하면 교체 후에 **문제가 해결** 되었다.
 
 Firefox + Gecko Driver를 사용하면 몇 가지 작업을 더 해주어야 하는데 모두 정리하면 다음과 같다. (Firefox를 이용한 여러가지 케이스를 시도해본 결과 이 방법이 문제없이 완벽하게 동작했다.)
 - Gecko Driver 설치.
@@ -135,7 +135,7 @@ print('===============================================')
 driver.quit()
 {% endhighlight %}
 
-테스트 코드를 실행하면 다음과 같은 결과나 표시된다.
+테스트 코드를 실행하면 다음과 같은 결과가 표시된다.
 {% highlight shell %}
 $ python test_selenium.py 
 ===============================================
@@ -145,7 +145,7 @@ $ python test_selenium.py
 
 잘 동작한다!
 
-Xvfb가 실행 중이 아닐 경우 다음과 같은 오류가 발생하므로 서버 배포 시에는 백 그라운드에서 잘 실행 될 수 있도록 하는 것과 기동 상태 감시 추가를 잊지 않도록 하자.
+Xvfb가 실행 중이 아닐 경우 다음과 같은 오류가 발생하므로 서버 배포 시에는 백그라운드에서 잘 실행될 수 있도록 하는 것과 기동 상태 감시 추가를 잊지 않도록 하자.
 {% highlight shell %}
 Traceback (most recent call last):
   File "test_selenium.py", line 13, in <module>
