@@ -10,6 +10,7 @@ color:
 tags:
 - devops
 categories:
+- "Challenging DevOps."
 twitter_text: '개발 황무지를 DevOps로 개간하기.'
 introduction: '개발 황무지를 DevOps로 개간하기.'
 ---

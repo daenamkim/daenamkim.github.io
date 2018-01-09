@@ -10,6 +10,7 @@ tags:
 - datascience
 - python
 categories:
+- "Challenging Data Science."
 twitter_text: '실전 결정 트리 맨땅에 헤딩하기.'
 introduction: '실전 결정 트리 맨땅에 헤딩하기.'
 ---
