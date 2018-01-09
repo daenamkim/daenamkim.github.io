@@ -10,6 +10,7 @@ tags:
 - devops
 - jenkins
 categories:
+- "Challenging DevOps."
 twitter_text: 'DevOps의 첫 걸음 Jenkins 설치하기'
 introduction: 'Jenkins 설치가 얼마나 간단한지 알아보자.'
 ---

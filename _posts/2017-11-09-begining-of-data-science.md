@@ -9,6 +9,7 @@ color:
 tags:
 - datascience
 categories:
+- "Challenging Data Science."
 twitter_text: '데이터 사이언스 공부를 시작하며...'
 introduction: '데이터 사이언스 공부를 시작하며...'
 ---
