@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "설치형 Wordpress에서 테마 및 파일 업로드 오류 해결하기"
 date: 2017-02-10 08:02:50
 image: '/assets/img/'

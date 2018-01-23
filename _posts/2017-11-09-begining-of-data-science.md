@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Begining of Data Science"
 date: 2017-11-09 11:52:55
 image: '/assets/img/'

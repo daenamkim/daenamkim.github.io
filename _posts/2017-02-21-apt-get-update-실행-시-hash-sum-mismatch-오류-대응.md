@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "apt-get update 실행 시 Hash Sum mismatch 오류 대응"
 date: 2017-02-21 01:52:17
 image: '/assets/img/'

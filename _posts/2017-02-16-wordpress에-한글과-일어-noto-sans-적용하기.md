@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "설치형 WordPress에 한글과 일어 Noto Sans 적용하기"
 date: 2017-02-16 02:28:20
 image: '/assets/img/'

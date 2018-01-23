@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "cassandra.ReadFailure: code=1300 오류 해결하기"
 date: 2017-01-17 8:06:23
 image: '/assets/img/'
