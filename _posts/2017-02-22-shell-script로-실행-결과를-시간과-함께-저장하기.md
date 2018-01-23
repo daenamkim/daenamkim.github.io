@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Shell Script로 실행 결과를 시간과 함께 저장하기"
 date: 2017-02-22 03:36:51
 image: '/assets/img/'

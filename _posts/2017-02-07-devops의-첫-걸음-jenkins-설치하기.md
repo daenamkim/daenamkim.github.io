@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "DevOps의 첫 걸음 Jenkins 설치하기"
 date: 2017-02-07 06:47:54
 image: '/assets/img/'

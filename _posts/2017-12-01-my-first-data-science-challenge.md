@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "My First Data Science Challenge"
 date: 2017-12-01 04:09:30
 image: '/assets/img/'
