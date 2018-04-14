@@ -1,4 +1,4 @@
-## Cards Jekyll Template - [Demo](https://willianjusten.com.br/cards-jekyll-template)
+## Cards Jekyll Template - [Demo](https://willianjusten.github.io/cards-jekyll-template)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
 
