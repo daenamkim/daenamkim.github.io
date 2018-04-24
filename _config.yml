@@ -1,12 +1,12 @@
 # Site settings
 title: OOOTOKO
-description: Streams of Living Water
+description: Full-Stack Developer but wants to be a Data Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://oootoko.net" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Daenam Kim
-user_description: Streams of Living Water
+user_description: Full-Stack Developer but wants to be a Data Engineer
 twitter_username: DaenamKim
 github_username: daenamkim
 disqus_username: oootoko-1
