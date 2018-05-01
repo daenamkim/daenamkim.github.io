@@ -8,6 +8,7 @@ description: 'Selenium과 Firefox Headless로 Web Scraper 시작하기.'
 main-class: 'data'
 color:
 tags:
+- data
 - selenium
 - firefox
 - scraper

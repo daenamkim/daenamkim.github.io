@@ -8,7 +8,7 @@ description: '데이터 사이언스 공부를 시작하며...'
 main-class: 'data'
 color:
 tags:
-- datascience
+- data
 categories:
 - "Challenging Data Science."
 twitter_text: '데이터 사이언스 공부를 시작하며...'

@@ -8,7 +8,7 @@ description: '실전 결정 트리 맨땅에 헤딩하기.'
 main-class: 'data'
 color:
 tags:
-- datascience
+- data
 - python
 categories:
 - "Challenging Data Science."
