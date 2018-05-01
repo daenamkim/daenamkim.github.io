@@ -78,10 +78,10 @@ def get_p(a, b):
 
     if len_a == 0:
         len_a = 0.00000001
-    
+
     if len_b == 0:
         len_b = 0.00000001
-        
+
     return len_a / len_b
 
 
@@ -115,7 +115,7 @@ print('Entropy is ' + str(get_entropy(genders, data)))
 ![속성별 정보 증가량 표](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/igs-table.png)
 **신장**을 이용해서 분류할 경우 **정보의 증가량이 가장 높음**을 알 수 있으며 이를 이용해서 분할한 데이터에 다시 한 번 정보 증가량을 계산하고 정보의 증가량이 가장 높은 속성으로 **반복적으로 분할**하는 방법을 사용한다.
 
-엔트로피와 정보의 증가량을 이용해서 데이터를 분류하는 이유는 결국에 우리가 알고자 하는 **gender를 가장 잘 예측할 수 있는 모델**을 만들기 위함이다. 
+엔트로피와 정보의 증가량을 이용해서 데이터를 분류하는 이유는 결국에 우리가 알고자 하는 **gender를 가장 잘 예측할 수 있는 모델**을 만들기 위함이다.
 
 ## 결정 트리 작성 및 테스트
 이번에는 교과서에서 다루는 대손 상각 예시의 데이터를 적절히 조합해서 실제 트리를 만들고 테스트를 해보도록 하자. 이 때, 테스트는 학습용으로 만든 데이터를 그대로 사용할 것이기 때문에 정확도가 다소 높을 수 있으나 무시하도록 하자. 이 포스트에서는 결정 트리를 스크래치 코드로 만들어서 동작시켜 보는 것이 목표이기 때문이다.
@@ -129,7 +129,7 @@ def create_tree(tree, labels, attributes, inputs, depth=0, max_depth=10, node_id
 
     """
     Conditions to become a terminal node.
-    
+
     1. At the entropy is smaller than "entropy_limit".
     2. At no left or right data after dividing by the "attribute".
     3. At the specific "max_depth".
@@ -165,7 +165,7 @@ def create_tree(tree, labels, attributes, inputs, depth=0, max_depth=10, node_id
     }
 
     entropy_limit = 0.1
-    
+
     if (depth >= max_depth) or len(inputs_left) == 0 or len(inputs_right) == 0 or \
         get_entropy(labels, inputs_left) < entropy_limit or get_entropy(labels, inputs_right) < entropy_limit:
 
@@ -182,10 +182,10 @@ def create_tree(tree, labels, attributes, inputs, depth=0, max_depth=10, node_id
         next_attributes = {k: v for k, v in attributes.items() if k != attr_key}
     else:
         next_attributes = attributes
-    
+
     create_tree(next_node, labels, next_attributes, inputs_left, depth + 1, max_depth, node_id * 2, 'left')
     create_tree(next_node, labels, next_attributes, inputs_right, depth + 1, max_depth, (node_id * 2) + 1, 'right')
-        
+
 tree = Tree()
 # Remove "residence" attribute because its IG is lower than others.
 create_tree(tree, LABELS, {k: v for k, v in ATTRIBUTES.items() if k != 'residence'}, INPUTS)
@@ -237,4 +237,3 @@ print('Accuracy is ' + str(matched / total))
 ## 참고
 - [자작 결정 트리](https://github.com/daenamkim/data-science-challenge/blob/master/Data%20Science%20for%20Business%20-%20Chapter%203.ipynb)
 - [데이터 사이언스 교과서](http://data-science-for-biz.com/DSB/Home.html)
-
