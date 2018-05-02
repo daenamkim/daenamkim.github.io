@@ -143,13 +143,13 @@ Git은 팀에서 작업하는 개발자들이 모든 변경 사항들을 코드 
 
 > <cite>[Ryan McGrath](https://www.quora.com/profile/Ryan-McGrath)가 언급한 것 처럼, 프론트엔드 엔지니어들은 모든 엔지니어들처럼 확실한 컴퓨터 사이언스 배경 지식을  가지기를 기대한다고 했다.</cite>
 
-실제로 지원자들에게 컴퓨터 사이언스 학위 또는 동등한 수준을 요구하는 회사들이 있는 반면, 많은 회사들은 어떻게 애플리케이션을 개발하고 모든 영역에 대해서 이해하고 있다는 것을 증명할 수 있다면 기술 자격이 없더라도 고용할 것이다. 그러나 유능한 개발자가되어 비효율적인 코드를 작성하거나 잘못된 도구를 사용하지 않는 것은 기본 알고리즘과 데이터 구조를 이해하고 상충관계를 분석할 수 있다. 그래서 확실히 공부해야할 내용들을 정리하였다.
+실제로 지원자들에게 컴퓨터 사이언스 학위 또는 동등한 수준을 요구하는 회사들이 있는 반면, 많은 회사들은 어떻게 애플리케이션을 개발하고 모든 영역에 대해서 이해하고 있다는 것을 증명할 수 있다면 기술 자격이 없더라도 고용할 것이다. 그러나 유능한 개발자가되어 비효율적인 코드를 작성하거나 잘못된 도구를 사용하지 않는 것은 기본 알고리즘과 데이터 구조를 이해하고 상호보완적 관계를 분석할 수 있다. 그래서 확실히 공부해야할 내용들을 정리하였다.
 
 - [알고리즘과 데이터 구조 기술들](https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f)을 향상시킨다.
 - [해시 테이블](http://stackoverflow.com/questions/730620/how-does-a-hash-table-work)을 공부하고 [깊은](https://www.quora.com/How-do-I-create-my-own-Hash-Table-implementation-in-Python) 수준으로 이해한다. 이 데이터 구조는 JavaScript의 Object(Python에서는 Dictionary, Ruby에서는 Hash)를 사용한다.
 - 데이터 구조에서 트리와 그래프가 어떻게 [도움](https://www.quora.com/Under-what-circumstances-would-a-web-developer-need-to-use-data-structures-such-as-Linked-Lists-BST-and-Graphs)이 되지는 이해한다.
 - 기본적인 [Big-O 분석](https://justin.abrah.ms/computer-science/big-o-notation-explained.html)을 이해하고 필요하지도 않은 3중 루프를 만드는 [바보같은](https://medium.com/@felipernb/algorithms-data-structures-and-web-development-7772e088f1d3) 짓을 하지말자!
-- 언제 [오브젝트와 어레이](http://stackoverflow.com/questions/688097/objects-vs-arrays-in-javascript-for-key-value-pairs)의 사용하는지를 알고 상충관계를 이해한다.
+- 언제 [오브젝트와 어레이](http://stackoverflow.com/questions/688097/objects-vs-arrays-in-javascript-for-key-value-pairs)의 사용하는지를 알고 상호보완적 관계를 이해한다.
 - 대용량 데이터를 처리할 때 [캐시](https://martin.kleppmann.com/2012/10/01/rethinking-caching-in-web-apps.html)가 매우 중요한 이유를 학습한다. 또한 인메모리와 디스크 스토리지의 [장점과 단점](http://stackoverflow.com/questions/25802521/difference-between-in-memory-databases-and-disk-memory-database)을 학습한다.
 - 큐와 스택의 [차이점](http://stackoverflow.com/questions/2074970/stack-and-queue-why)을 학습한다.
 
