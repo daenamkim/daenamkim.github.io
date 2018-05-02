@@ -17,7 +17,7 @@ twitter_text: '풀스택 개발자 되기'
 introduction: '풀스택 개발자 되기'
 ---
 
-> [Daniel Borowski](https://medium.com/@mrdaniel?source=post_header_lockup)이 작성한 [A Guide to Becoming a Full-Stack Developer in 2017](https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c)를 번역하였으면 필요에 따라 일부 추가 또는 삭제를 하였다. 1년 전에 작성된 글이지만 지금 읽어도 전혀 손색이 없는 풀스택 개발자가 되기위한 요소들을 깔금하게 잘 정리한 블로그라고 생각된다.
+> [Daniel Borowski](https://medium.com/@mrdaniel?source=post_header_lockup)이 작성한 [A Guide to Becoming a Full-Stack Developer in 2017](https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c)를 번역하였으며 필요에 따라 일부 추가 또는 삭제를 하였다. 1년 전에 작성된 글이지만 지금 읽어도 전혀 손색이 없는 풀스택 개발자가 되기위한 요소들을 깔금하게 잘 정리한 블로그라고 생각된다.
 
 [스택 오버플로우 2016 개발자 조사](http://stackoverflow.com/insights/survey/2016)에 따르면 풀스택 웹 개발은 오늘날 가장 인기있는 직업이다. 그도 그럴것이 수많은 온라인과 오프라인 프로그램(강좌)들에서 사람들을 풀스택 개발자가 될 수 있도록 도와주며 심지어는 새로운 개발자들이 높은 급여의 프로그래밍 직업을 가질 수 있도록 도와주기도한다.
 
@@ -77,8 +77,8 @@ HTML/CSS에 대해서 잘 이해했다면 데이터베이스 처리, 사용자 �
 - Node.js: 아주 훌륭한 선택인데 왜냐하면 JavaScript 환경을 그대로 사용할 수 있으며 이는 새로운 언어를 배울 필요가 없다는 뜻이다. 이런 이유로 많은 온라인 프로그램들과 부트 캠프들이 Node.js를 가르친다. 웹 애플리케이션 개발 시 배울 필요가 있을 것으로 보이는 가장 유명한 프레임워크는 [Express](https://expressjs.com/)이다.
 - Ruby: Ruby로 개발 시 유명한 프레임워크들은 Rails와 Sinatra가 있다. [많은 프로그램들](https://www.quora.com/Why-do-many-coding-bootcamps-still-teach-Ruby-on-Rails-instead-of-JavaScript-for-web-app-development-like-Hack-Reactor-and-Fullstack-Academy-Is-it-because-the-current-demand-is-ROR-and-not-the-future)이 처음 백엔드 언어로 Ruby를 가르친다.
 - Python: Python으로 개발 시 유명한 프레임워크들은 Django와 Flask가 있다.
-- Java: 최근 프로그램들에서 풀스택 웹 개발 시에 Java는 많이 가르쳐지지 않고 있지만 일부 회사들은 Java를 백엔드로 사용하며 여전히 높은 수요를 가진 언어 (위 그림 참고) 이다.
-- PHP: PHP는 최근 프로그램들에서는 거의 가르쳐지지 않지만 Java처럼 지금도 웹에서는 수요가 많고 [중요하다](https://www.quora.com/Why-should-I-learn-to-program-in-PHP-why-is-it-so-important).
+- Java: 최근 프로그램들에서 풀스택 웹 개발 시에 Java는 많이 가르치지 않고 있지만 일부 회사들은 Java를 백엔드로 사용하며 여전히 높은 수요를 가진 언어 (위 그림 참고) 이다.
+- PHP: PHP는 최근 프로그램들에서는 거의 가르치지 않지만 Java처럼 지금도 웹에서는 수요가 많고 [중요하다](https://www.quora.com/Why-should-I-learn-to-program-in-PHP-why-is-it-so-important).
 
 ## 4. Databases & Web Storage
 
