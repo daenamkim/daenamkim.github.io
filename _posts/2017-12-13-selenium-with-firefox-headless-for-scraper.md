@@ -20,7 +20,7 @@ introduction: 'Selenium과 Firefox Headless로 Web Scraper 시작하기.'
 ## 도입 배경
 Web Scraping을 [urllib](https://docs.python.org/3/library/urllib.html)이나 [Requests](http://docs.python-requests.org/en/master/)를 사용할 경우 상대적으로 빠른 이점이 있으나 동적으로 로딩되는 템플릿 데이터를 정상적으로 취득하지 못하는 경우가 발생한다. 이 때, 가상 브라우저를 사용하면 문제를 해결 할 수 있으며 (반면에 메모리 사용량 증가 및 속도가 느려지는 단점이 있다.) 대표적인 가상 브라우저 도구인 [Selenium](http://www.seleniumhq.org/)을 적용해 보도록 하자.
 
-![Selenium Logo](http://cdn.oootoko.net/blog/assets/img/selenium-with-firefox-headless-for-scraper/selenium-logo.png)
+![Selenium Logo](https://cdn.oootoko.net/blog/assets/img/selenium-with-firefox-headless-for-scraper/selenium-logo.png)
 
 Selenium을 사용해서 [Headless Browser](https://en.wikipedia.org/wiki/Headless_browser)로 웹 화면을 읽어오기 위해서는 외부 Web Driver를 연동해야 하는데 내장되어 있지 않으므로 별도로 설치를 해주어야 한다. 대표적인 Web Driver는 다음과 같다.
 - Firefox + [Gecko Driver](https://github.com/mozilla/geckodriver/releases)

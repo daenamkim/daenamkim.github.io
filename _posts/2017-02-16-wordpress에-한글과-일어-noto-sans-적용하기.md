@@ -35,7 +35,7 @@ Noto Sans 폰트는 아시아권 언어들도 지원이 되고 있으나 이 글
 
 **Enfold(또는 Enfold Child)(언어) > General Styling > Fonts > Quick CSS**
 
-![Quick CSS](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css.png)
+![Quick CSS](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css.png)
 
 **한글 폰트의 경우 아래 코드를 캡처 이미지와 같이 입력한다.**
 
@@ -48,7 +48,7 @@ html * {
 }
 {% endhighlight %}
 
-![Quick CSS Korean](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-kr.png)
+![Quick CSS Korean](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-kr.png)
 
 **일어 폰트의 경우 아래 코드를 캡처 이미지와 같이 입력한다.**
 
@@ -61,16 +61,16 @@ html * {
 }
 {% endhighlight %}
 
-![Quick CSS Japanese](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-jp.png)
+![Quick CSS Japanese](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-jp.png)
 
 저장 후에 새창으로 해당 페이지에 접속해서 폰트가 잘 적용되어 있는지 확인하자.
-![Quick CSS Save](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-save.png)
+![Quick CSS Save](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/quick-css-save.png)
 
 기본적인 확인 방법은 **눈**이다. ;; 관리자 화면에서 커스텀 CSS를 지우고 적용, 그리고 다시 입력 후 적용 하는 식으로 폰트가 바뀌는지 확인한다.
 브라우저의 디버거를 이용해서도 웹 폰트가 정상적으로 동작하는지 확인해보자.
 
-![Check Noto Sans 1](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-1.png)
-![Check Noto Sans 2](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-2.png)
+![Check Noto Sans 1](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-1.png)
+![Check Noto Sans 2](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-2.png)
 
 혹시 테마에서 커스텀 폰트가 정상적으로 반영되지 않을 경우 다음과 같이 `add_theme_support('avia_template_builder_custom_css')` 를 활성화 한다.
 
@@ -184,10 +184,10 @@ function avia_add_content_font($fonts)
 
 화면 갱신 후 **Enfold > General Styling > Fonts** 순서로 이동하면 아래 그림과 같이 Noto Sans 폰트를 적용할 수 있다.
 
-![Noto Sans Fonts Setup](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/noto-sans-fonts-setup.png)
+![Noto Sans Fonts Setup](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/noto-sans-fonts-setup.png)
 
 마지막으로 브라우저 디버거에서 웹 페이지가 폰트를 잘 가져오는지 확인하자.
-![Check Noto Sans 3](http://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-3.png)
+![Check Noto Sans 3](https://cdn.oootoko.net/blog/assets/img/wordpress에-한글과-일어-noto-sans-적용하기/check-noto-sans-3.png)
 
 ## 참고
 - [Noto Sans Korean](https://fonts.google.com/earlyaccess#Noto+Sans+KR)

@@ -48,7 +48,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 - 실제 전화번호로 전화가 되는 것 외에는 좋은 점이 없어 보임. (카톡을 쓰는 것이 낮다고 생각이 들 정도였음.)
 
 ## 결심 그리고 현재 (AFTER)
-![wasteland](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/wasteland.jpg)
+![wasteland](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/wasteland.jpg)
 ><cite>[사진 출처](https://cdn.pixabay.com/photo/2014/09/25/21/08/litter-460984_960_720.jpg)</cite>
 
 더이상 미루지 말고 대대적인 **황무지 개간**을 시작할 때가 되었다고 판단되었다. 2017년 초 모든 것을 갈아 엎자는 취지 하에 **DevOps** 방법론을 우리 회사에 맞게 도입하기로 하였다.
@@ -61,7 +61,7 @@ introduction: '개발 황무지를 DevOps로 개간하기.'
 - 그룹 챗: [Slack](https://slack.com/)
 
 ### GitHub
-![GitHub Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/github-logo.png)
+![GitHub Logo](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/github-logo.png)
 큰 회사들처럼 사내에 구축하지는 않고 [SasS](https://ko.wikipedia.org/wiki/SaaS) 형태의 [Team](https://github.com/pricing/team) 플랜을 사용 중이다. GitHub 사용의 장점은 다음과 같다.
 - 매우 다양한 외부 서비스들과 연동 가능. (Slack, Jenkins, Trello 등.)
 - 현재 대부분의 오픈 소스 프로젝트가 가동되고 있는 동일 인터페이스를 그대로 사용하므로 GitHub에서 조금이라도 개발 경험이 있는 사람의 경우 **학습 비용이 0임**.
@@ -81,7 +81,7 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 ![GitHub Flow](http://cdn-ak.f.st-hatena.com/images/fotolife/s/shoma2da/20151104/20151104223339.png)
 
 ### Trello
-![Trello Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/trello-logo.png)
+![Trello Logo](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/trello-logo.png)
 현재는 무료 버전으로 사용 중이며 필요하면 향후 유료 플랜으로 전환을 검토 예정이다. 엄청나게 유명한 [Jira](https://www.atlassian.com/software/jira) 도입을 검토 하였으나 이 또한 팀 규모에 비해 지나치게 기능이 복잡(=학습 비용 증가)한 것이 문제로 대두 되었다. Trello 도입을 검토하는 시점에 Jira 개발사인 [Atlassian](https://www.atlassian.com/)이 한화 약 [5천억원에 Trello를 인수](http://techneedle.com/archives/29533)하였다. 기사를 보는 순간 서비스에 대한 매우 큰 신뢰가 느껴졌다. (나도 참 단순하다.) 그 밖에 이유는 다음과 같다.
 - 매우 다양한 외부 서비스들과 연동 가능. (Slack, GitHub 등.)
 - 사용성이 매우 직관적임.
@@ -89,13 +89,13 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 
 개발팀을 시작으로 Trello를 전사적으로 도입해서 사용중이며 현재까지 원활하게 사용되고 있다.
 
-![Trello Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/trello-usage.png)
+![Trello Usage](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/trello-usage.png)
 ><cite>[ListeningMind](http://www.listeningmind.com/ko/) 솔루션 개발 보드의 실제 모습. (Error 리스트의 카드 수는 기밀 사항이므로 모자이크 처리함.;;)</cite>
 
 딱 보아도 Redmine 쓸 때보다 비교가 안되게 직관적이다.
 
 ### Jenkins
-![Jenkins Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/jenkins-logo.png)
+![Jenkins Logo](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/jenkins-logo.png)
 빌드 및 배포 서버는 SaaS 형태가 아닌 내부에 직접 구축을 했다. 관리 비용이 발생함에도 불구하고 내부에 구축하기로 한 이유는 다음과 같다.
 - GitHub, Slack 등 새로 도입한 서비스들과 연동 가능.
 - 각 서비스마다 빌드 및 배포 환경, 처리 절차가 다름.
@@ -107,11 +107,11 @@ GitHub의 서비스 안정성에 대해서 불만을 표시하는 분들을 간�
 
 기존의 Hudson에서 조금 만들어져 있던 것을 모두 버리고 새롭게 처음부터 모든 빌드 및 배포 프로세스를 설계 및 작성하였다.
 
-![Jenkins Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/jenkins-usage.png)
+![Jenkins Usage](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/jenkins-usage.png)
 ><cite>ListeningMind 배포 과정.</cite>
 
 ### Serverspec
-![Serverspec Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/serverspec-logo.jpg)
+![Serverspec Logo](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/serverspec-logo.jpg)
 타겟 서버에서 설치된 패키지, 프로세스, 포트, 파일, 디렉토리 및 크론탭 등 매우 다양하고 정교한 서버 테스트를 지원하는 도구이다. 이런 도구의 도움 없이 서버를 운영해본 사람이라면 이런 확인 작업이 얼마나 번거롭고 실수가 잦았었는지를 기억할 것이다. (아니면 나만 그랬을 수도 있다. ;;) 설정 가능한 상세한 내용은 [여기](http://serverspec.org/resource_types.html)를 참고하자.
 
 아래는 Serverspec 실행 시 실제로 오류가 발생했을 때의 상황이다. 프로세스 수가 9개 이어야 하는데 5개로 확인 되면서 오류가 발생한 것이다.
@@ -151,23 +151,23 @@ Finished: FAILURE
 Jenkins 프로젝트로 만들어 놓고 빌드 파이프라인에 적용시켜 두면 상당히 편리하다.
 
 ### Slack
-![Slack Logo](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-logo.png)
+![Slack Logo](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-logo.png)
 현재 [Standard](https://ascentnet.slack.com/plans) 플랜으로 사용하고 있으며 이 앱은 너무 유명해서 굳이 설명이 필요 없을 것 같지만 선정한 이유를 간단히 정리하면 다음과 같다.
 - 매우 다양한 서비스들과 연동이 가능함. (GitHub, Trello, Jenkins 등.)
 - 전화번호 전화 빼고 스카이프에서 가능한 모든 기능을 사용할 수 있음. (영상 통화, 화면 공유 등.)
 - 위에서 소개한 모든 서비스들과 연동이 가능해서 Slack 하나 만으로 모든 작업 흐름을 알 수 있음.
 - 각종 봇 서비스들과 연동해서 다양한 편의성을 도모할 수 있음.
 
-![Slack Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-usage.png)
+![Slack Usage](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/slack-usage.png)
 ><cite>팀 별, 업무 별로 세분화된 Slack 채널들.</cite>
 
 GitHub, Trello, Jenkins, 캘린더, 개인 메일, 감시 메일까지 연동할 수 있는 것은 모두 Slack이랑 연동을 해 놓아서 모든 업무 과정을 한 곳에서 확인할 수 있다. 예전처럼 모든 곳을 돌아다닐 필요가 없어졌으며 결과적으로 스케줄을 깜빡 했다던가 카드의 코멘트를 보지 못했다던가 하는 유치원생 레벨의 핑계는 더 이상 안통하게 되었다.
 
 ### Bot
-![Hubot](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/hubot.png)
+![Hubot](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/hubot.png)
 Jenkins까지 가지 않고도 현 상태 확인 및 배포 명령을 보내고자 Bot도 만들었다. 내부 서버에 구축하였으며 AsBot(Ascent Bot)으로 이름을 정하였다. [Hubot](https://hubot.github.com/)을 이용해서 작성 되었으며 언어는 [CoffeeScript](http://coffeescript.org/)로 되어 있다. Slack이 [Hubot 애드온](https://slack.com/apps/A0F7XDU93-hubot)을 지원하므로 연동 과정은 그다지 어렵지 않았으나 Jenkins와 연결하는 과정에서 [CSRF](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%9A%94%EC%B2%AD_%EC%9C%84%EC%A1%B0) 토큰 이슈가 나서 조금 애를 먹긴 했었다.
 
-![Hubot Usage](http://cdn.oootoko.net/blog/assets/img/introduction-of-devops/hubot-usage.png)
+![Hubot Usage](https://cdn.oootoko.net/blog/assets/img/introduction-of-devops/hubot-usage.png)
 
 ## 개발 흐름 정리
 - 이슈 발생, Trello 카드 작성, 브랜치 생성 및 작업 시작.

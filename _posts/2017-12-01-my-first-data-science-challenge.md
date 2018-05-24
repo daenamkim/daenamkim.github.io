@@ -22,12 +22,12 @@ introduction: '실전 결정 트리 맨땅에 헤딩하기.'
 ## 엔트로피
 [엔트로피](https://ko.wikipedia.org/wiki/%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC)(Entropy)는 어떤 집합의 무질서 정도를 측정하는 수치이다. 범위는 0부터 1까지로 나타내며 엔트로피가 **0이면 완전 순수**하며 **1이면 완전 불순**하다는 것을 의미한다. 다음은 책에서 설명하는 엔트로피의 공식과 그래프이다.
 
-![엔트로피 수식](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropy-equation.png)
+![엔트로피 수식](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropy-equation.png)
 ><cite>from Data Science for Business, Equation 3-1. Entropy</cite>
 
 **p**는 특정 값의 비율을 나타내며 0.5(50%)가 될 경우 가장 큰 값, 즉 아주 불순하게된다. 아래 그래프를 통해서 **+**와 **-**가 같은 비율일 경우가 가장 불순한 상태인 것을 의미한다.
 
-![엔트로피 그래프](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropy-graph.png)
+![엔트로피 그래프](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropy-graph.png)
 ><cite>from Data Science for Business, Figure 3-3. Entropy of a two-class set as a function of p(+).</cite>
 
 ## 정보 증가량
@@ -35,7 +35,7 @@ introduction: '실전 결정 트리 맨땅에 헤딩하기.'
 
 그 수식은 아래와 같으며 **parent**는 아무 속성도 적용하지 않은 전체 데이터에 대한 데이터이다.
 
-![정보 증가량 수식](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/ig-equation.png)
+![정보 증가량 수식](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/ig-equation.png)
 > <cite>from Data Science for Business, Equation 3-2. Information gain</cite>
 
 ## 정보를 전달하는 속성의 선택
@@ -106,13 +106,13 @@ print('Entropy is ' + str(get_entropy(genders, data)))
 
 **gender** 에 대해서만 엔트로피를 확인 했을 경우 엔트로피는 1이며 매우 불순한 데이터라고 보여진다. 그러나 각 **속성**을 이용해서 **gender**에 대한 엔트로피를 계산할 경우 다음과 같이 확인할 수 있다.
 
-![속성별 엔트로피 표](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropies-table.png)
+![속성별 엔트로피 표](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropies-table.png)
 위 표를 보면 가장 왼쪽 부터 순서대로 임금이 230만원 보다 작은 경우와 크거나 같은 경우, 신장이 164센티미터 보다 작은 경우와 크거나 같은 경우로 분류된 값이다. 한 눈에 보아도 데이터의 순도가 좋아졌음을 알 수 있다.
 
-![속성별 엔트로피 그래프](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropies-graph.png)
+![속성별 엔트로피 그래프](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/entropies-graph.png)
 속성별 엔트로피를 그래프로 확인하면 아무 속성도 적용하지 않은 전체 데이터의 경우(*parent*) 엔트로피가 가장 좋지 못하며 임금이 230만원 보다 작을 경우와 신장이 164센티미터 보다 작을 경우 엔트로피가 0(실제로는 매우 작은 수) 임을 확인할 수 있다.
 
-![속성별 정보 증가량 표](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/igs-table.png)
+![속성별 정보 증가량 표](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/igs-table.png)
 **신장**을 이용해서 분류할 경우 **정보의 증가량이 가장 높음**을 알 수 있으며 이를 이용해서 분할한 데이터에 다시 한 번 정보 증가량을 계산하고 정보의 증가량이 가장 높은 속성으로 **반복적으로 분할**하는 방법을 사용한다.
 
 엔트로피와 정보의 증가량을 이용해서 데이터를 분류하는 이유는 결국에 우리가 알고자 하는 **gender를 가장 잘 예측할 수 있는 모델**을 만들기 위함이다.
@@ -202,7 +202,7 @@ tree.__str__()
 ```
 
 그래프를 그려보면 다음과 같다.
-![결정 트리 그래프](http://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/tree-graph.png)
+![결정 트리 그래프](https://cdn.oootoko.net/blog/assets/img/my-first-data-science-challenge/tree-graph.png)
 
 그래프를 보고 잠시 생각을 해보면 **대손 상각**이 발생할 조건과 **정상 상환** 할 조건은 다음과 같다.
 > - 대손 상각: 직업이 없거나 직업이 있어도 통장 잔액이 5천만원 미만인 경우.

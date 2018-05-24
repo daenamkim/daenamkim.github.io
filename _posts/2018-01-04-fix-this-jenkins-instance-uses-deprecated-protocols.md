@@ -20,15 +20,15 @@ introduction: 'Jenkins 업데이트 후에 발생하는 프로토콜 경고 없�
 ## 해결 과정
 
 #### 경고 클릭
-![Security Alert](http://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/security-alert.png)
+![Security Alert](https://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/security-alert.png)
 
 #### 프로토콜 상세 확인
-![Security Alert](http://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols.png)
+![Security Alert](https://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols.png)
 
-![Security Alert](http://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols-before.png)
+![Security Alert](https://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols-before.png)
 
 #### 구 프로토콜의 사용 해제
-![Security Alert](http://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols-after.png)
+![Security Alert](https://cdn.oootoko.net/blog/assets/img/fix-this-jenkins-instance-uses-deprecated-protocols/agent-protocols-after.png)
 저장하면 경고가 사라진다! >.<
 
 ## 참고

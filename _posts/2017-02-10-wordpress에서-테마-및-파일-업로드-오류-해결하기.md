@@ -17,11 +17,11 @@ introduction: '설치형 Wordpress를 사용 시 가장 많이 겪는 파일 용
 
 ## 테마 업로드 경로
 - 외모 > 테마 > 새로추가 > 테마 업로드 > zip 파일 업로드 > 지금 설치하기
-![Install Theme](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-1.png)
-![Install Theme](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-2.png)
+![Install Theme](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-1.png)
+![Install Theme](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-2.png)
 
 **지금 설치하기**를 클릭하면 당연히 될 줄 알았으나 (깨끗한 서버에서 시작했을 경우 보통은) 아래와 같은 오류가 발생한다.
-![Install Theme Error](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-error-1.png)
+![Install Theme Error](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-error-1.png)
 
 자! 이제부터 손을 좀 봐주자.
 
@@ -91,13 +91,13 @@ LimitRequestBody 1024000000
 {% endhighlight %}
 
 다시 웹 서버를 재기동하고 업로드를 시도하니 성공! 그러나...
-![Install Theme Error](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-error-2.png)
+![Install Theme Error](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-error-2.png)
 
 이것도 조사를 해보니 테마를 구입 후에 바로 받아서 업로드 시 사용하면 안되고 한 번 압축을 풀어서 안에 있는 실제 테마 파일만 올려야 한다.
-![Theme File](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/theme-file.png)
+![Theme File](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/theme-file.png)
 
 테마 파일로 다시 업로드 하니 이번에는 성공!
-![Install Theme Success](http://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-success.png)
+![Install Theme Success](https://cdn.oootoko.net/blog/assets/img/wordpress에서-테마-및-파일-업로드-오류-해결하기/install-theme-success.png)
 
 
 ## 호스팅 업체에 문의
