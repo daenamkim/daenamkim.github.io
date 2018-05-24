@@ -90,6 +90,8 @@ $ openssl x509 -inform PEM -in server.crt > server.pem
 
 AWS Console에 로그인 한 후에 다음의 순서대로 진행한다.
 
+![Import Image Step 0](https://cdn.oootoko.net/blog/assets/img/import-a-custom-certificate-on-aws-certificate-manager/aws-certificate-0.png)
+
 ![Import Image Step 1](https://cdn.oootoko.net/blog/assets/img/import-a-custom-certificate-on-aws-certificate-manager/aws-certificate-1.png)
 
 ![Import Image Step 2](https://cdn.oootoko.net/blog/assets/img/import-a-custom-certificate-on-aws-certificate-manager/aws-certificate-2.png)
