@@ -39,7 +39,7 @@ SSL Certificate을 발행하는 방법은 여러가지가 있으며 클라우드
 
 [CSR](https://en.wikipedia.org/wiki/Certificate_signing_request)은 `openssl` 명령을 이용해서 [생성](https://support.globalsign.com/customer/portal/articles/1221018-generate-csr---openssl)한다.
 
-```sh
+{% highlight shell %}
 $ openssl req -out CSR.csr -new -newkey rsa:2048 -nodes -keyout privatekey.key
 Generating a 2048 bit RSA private key
 .........+++
@@ -60,7 +60,7 @@ Organization Name (eg, company) []:OOOTOKO
 Organizational Unit Name (eg, section) []:
 Common Name (eg, fully qualified host name) []:*.oootoko.net
 Email Address []:daenam.kim@*****.***
-```
+{% endhighlight %}
 
 `CSR.csr`에 있는 내용은 Certificate 발행 시 필요하며 `privatekey.key` 는 향후 웹 서버 설정이나 AWS에 등록할 때 필요하다.
 
@@ -68,10 +68,10 @@ Email Address []:daenam.kim@*****.***
 
 AWS Certificate Manager에 Import 시에는 PEM 형태로 인코딩된 정보를 넣어야 한다. [다음과 같이](https://stackoverflow.com/questions/991758/how-to-get-pem-file-from-key-and-crt-files) 실행한다.
 
-```sh
+{% highlight shell %}
 $ openssl rsa -in privatekey.key -text > privatekey.pem
 $ openssl x509 -inform PEM -in server.crt > server.pem
-```
+{% endhighlight %}
 
 내가 직접 실행 했을 때에는 `server.pem`의 경우 출력 데이터가 변하지 `server.crt`와 다르지 않았다.
 
