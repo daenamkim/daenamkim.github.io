@@ -18,7 +18,7 @@ introduction: 'AWS Certificate Manager에서 Custom Certificate를 등록하는 
 
 ## SSL Certificate 구입
 
-SSL Certificate을 발행하는 방법은 여러가지가 있으며 클라우드 서비스나 서비스 형태에 따라서 무료로 제공하는 경우도 있다. 혹시 GitHub에서 개인 블로그를 운영 한다면 최근에 [GitHub Pages에서 SSL을 무료로 제공](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)하기 시작했으므로 참고하자.
+SSL Certificate을 발행하는 방법은 여러가지가 있으며 클라우드 서비스나 서비스 형태에 따라서 무료로 제공하는 경우도 있다. 혹시 GitHub에서 개인 블로그를 운영 한다면 최근에 [GitHub Pages에서 SSL을 무료로 제공](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)하기 시작했으므로 참고하자. (Certificate을 직접 발행해주는 것은 아니고 자신이 GitHub Pages로 사용중인 사이트에만 적용됨.)
 
 증명서 발행 방법은 다음과 같다.
 
