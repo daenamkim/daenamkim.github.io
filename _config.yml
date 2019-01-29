@@ -2,7 +2,7 @@
 title: OOOTOKO
 description: Full-Stack Developer but wants to be a Data Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.oootoko.net" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://oootoko.net" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Daenam Kim
