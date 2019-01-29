@@ -128,7 +128,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 driver = webdriver.Firefox()
-driver.get('https://oootoko.net')
+driver.get('https://www.oootoko.net')
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 print('===============================================')
 print(soup.find('title'))
